@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin-top: 10rem;
+}
+
+#form {
+  background: #9dad93;
+  width: 400px;
+  border: 0px solid #9dad93;
+  border-radius: 10px;
+  margin: 2rem 2rem;
+}
+
+.list {
+  /* width: 400px; */
+ padding: 2rem;
+
+}
+
+h2 {
+  background: #384b2c;
+  color: #fff;
+  text-align: center;
+  margin-top: 0rem;
+  padding: 1.3rem 2rem;
+  border-top: 0px solid #9dad93;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#members h2 {
+  background: #384b2c;
+  color: #fff;
+  text-align: center;
+  margin-top: 0rem;
+  padding: 1.3rem 2rem;
+}
+
+.form-content {
+  padding: 1.5rem
+}
+
+.input-group {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.input-group label,
+.input-group input,
+.input-group small {
+  display: block;
+  width: 100%;
+}
+
+.input-group input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.fa-exclamation-circle {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.1rem;
+  color: #ce2525;
+  visibility: hidden;
+}
+
+.input-group small,
+.input-group-check small {
+  color: #ce2525;
+  visibility: hidden;
+}
+
+.input-group-check small {
+  display: block;
+}
+
+.fa-check-circle {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.1rem;
+  color: #27b451;
+  visibility: hidden;
+}
+
+.fa-arrow-left {
+  color: #000;
+
+}
+
+.btn {
+  width: 100%;
+  background: #4f7937;
+  color: #fff;
+  padding: 0.6rem;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 0.7rem;
+}
+
+.btn:hover {
+  color: #fff;
+  box-shadow: 1px 2px 5px 1px #333;
+}
+
+.btn-small {
+  width: 100%;
+  color: #4f7937;
+  padding: 0.4rem;
+  text-decoration: none;
+}
+
+.btn-small:hover {
+  color: #333;
+}
+
+.error input {
+  border: 1px solid #ce2525;
+  outline: 1px solid #ce2525;
+}
+
+.error .fa-exclamation-circle,
+.error small {
+  visibility: visible;
+}
+
+.success input {
+  border: 1px solid #239207;
+  outline: 1px solid #239207;
+}
+
+.success .fa-check-circle {
+  visibility: visible;
+}
+
+#toc {
+  border: none;
+  outline: none;
+}
+
+
+.text {
+  width: 100%;
+  padding: 0.7rem;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+
+.users {
+  /* position: absolute;
+  top: 150px;
+  left: 505px; */
+}
+
