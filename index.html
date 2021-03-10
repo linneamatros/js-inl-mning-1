@@ -12,7 +12,7 @@
   
   <div class="container">
     <div class="box">
-    <div class="form d-flex justify-content-center">
+    <div class="form d-flex">
       <form id="form" class="col-6">
         <h2>Registrering</h2>
           <div class="form-content">
@@ -40,46 +40,39 @@
             <i class="fas fa-check-circle"></i>
             <small>error message!</small>
           </div>
-    
-          <div class="input-group-check">
-            <input type="checkBox" id="toc">
-            <label for="toc">Jag godkänner användarvillkoren</label>
-            <small>error message</small>
-          </div>
 
           <div class="input-group">
-            <button class="submit btn">Registrera</button>
-            <!-- <a class="btn submit" href="users.html">Registrera</a> -->
+            <button class="submit btn col-12">Registrera</button>
           </div>
         </form>
       </div>
 
-      <div class="box">
-        <div class="users">
-          <form id="form" class="col-6">
-            <h2>Medlemmar</h2>
-              <div class="list">
-                <div id="output" class="mt-1">
-                  <div class="user d-flex justify-content-between align-items-center mb-4">
-                    <div class="text">
-                      <h3>FirstName LastName</h3>
-                      <small>email@mail.com</small>
-                    </div>
+    <div id="box2" class="box">
+      <div class="users">
+          <h2>Medlemmar</h2>
+            <div class="list">
+              <div id="output" class="mt-1">
+                <div class="user d-flex justify-content-between align-items-center mb-4">
+                  <div class="text">
+                    <h3>FirstName LastName</h3>
+                    <small>email@mail.com</small>
                   </div>
-                    <div class="user d-flex justify-content-between align-items-center mb-4">
-                      <div class="text">
-                        <h3>FirstName LastName</h3>
-                        <small>email@mail.com</small>
-                      </div>>
-                    </div>
+                  <div class="col-3">
+                    <button class="edit btn btn-info col-12">Ändra</button>
+                    <button class="remove btn btn-danger col-12">Radera</button>
+                  
                   </div>
+                </div>
               </div>
-        </form>
-      
+            </div>
+        </div>
       </div>
-    </div>
-     
-    </div>
+
+
+    
+    </div>   
+
+  </div>
 </div>
 
 
